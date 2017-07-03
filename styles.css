@@ -66,6 +66,48 @@ h1{
 	width:150px;
 	margin:0 20px;
 }
-.dt:hover{
+.dt:hover,button:hover{
 	text-decoration:underline;
+}
+
+th p{
+	margin:0;
+	text-align:left;
+	color:gray;
+}
+.cp{
+	margin:0;
+}
+button{
+	width:90%;
+	font-size:25px;
+	border:3px solid gray;
+	border-radius:5px;
+	background-color: silver;
+	color:gray;
+	height:40px;
+	margin-top:15px;
+	cursor:pointer;
+
+}
+.resetdrop .panel {
+	text-align:center;
+
+}
+.displaydrop .panel{
+	text-align:center;
+}
+
+.toggler{
+	position:relative;
+	top:5px;
+	border:3px solid gray;
+	border-radius:5px;
+	margin: 0 5px;
+}
+.borderbutton{
+	position:relative;
+	top:5px;
+	margin:5px;
+	width:93%;
 }

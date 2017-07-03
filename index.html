@@ -16,13 +16,28 @@
       <div class="dropdowns">
         <div class = "colordrop">
       	  <div class ="panel">
-      	    <form class="colorform">
-      	      <input class ="cp" type="radio" name="color" value="Black" checked>Black<br>
-      	      <input class ="cp" type="radio" name="color" value="Red" >Red<br>
-      	      <input class ="cp" type="radio" name="color" value="Green" >Green<br>
-      	      <input class ="cp" type="radio" name="color" value="Blue" >Blue<br>
-      	      <input class ="cp" type="radio" name="color" value="Rainbow" >Rainbow<br>
-      	    </form>
+      	    <table>
+      	      <tr>
+      	        <th><input class ="cp" type="radio" name="color" value="Black" checked> </th>
+      	        <th><p>Black</p></th>
+      	      </tr>
+      	      <tr>
+      	        <th><input class ="cp" type="radio" name="color" value="Red" ></th>
+      	        <th><p>Red</p></th>
+      	      </tr>
+      	      <tr>
+      	        <th><input class ="cp" type="radio" name="color" value="Green" ></th>
+      	        <th><p>Green</p></th>
+      	      </tr>
+      	      <tr>
+      	        <th><input class ="cp" type="radio" name="color" value="Blue" ></th>
+      	        <th><p>Blue</p></th>
+      	      </tr>
+      	      <tr>
+      	        <th><input class ="cp" type="radio" name="color" value="Rainbow" ></th>
+      	        <th><p>Rainbow</p></th>
+      	      </tr>
+      	    </table>
       	  </div>
           <div class="tab">
             <p class ="dt">Colors</p>
@@ -30,6 +45,8 @@
         </div>
         <div class = "resetdrop">
           <div class ="panel">
+            <button class="clear">Clear</button>
+            <button class="resize">Re-Size</button>
       	  </div>
           <div class="tab">
             <p class ="dt">Reset</p>
@@ -37,6 +54,19 @@
         </div>
         <div class = "displaydrop">
           <div class ="panel">
+            <div class ="toggler">
+              <table>
+                <tr>
+                  <th><input class="dp" type="radio" name="mode" value="Circle" checked></th>
+                  <th><p>Circle</p></th>
+                </tr>
+                <tr>
+                  <th><input class="dp" type="radio" name="mode" value="Square"></th>
+                  <th><p>Square </p></th>
+                </tr>
+              </table>
+            </div>
+            <button class ="borderbutton">Borders</button>
       	  </div>
           <div class="tab">
             <p class ="dt">Display</p>
